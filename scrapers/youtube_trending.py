@@ -1,12 +1,11 @@
 """
-YouTube 트렌딩 수집기
+YouTube 커리어 키워드 수집기
 - Invidious 공개 API 사용 (API 키 불필요)
-- 한국 트렌딩 영상 제목에서 커리어 키워드 추출
+- 트렌딩 피드 대신 커리어 키워드 직접 검색 → 조회수 기반 점수 산정
 """
 import requests
 from datetime import datetime
 
-# 공개 Invidious 인스턴스 (순서대로 시도)
 INVIDIOUS_INSTANCES = [
     "https://y.com.sb",
     "https://invidious.nerdvpn.de",
@@ -15,64 +14,119 @@ INVIDIOUS_INSTANCES = [
     "https://vid.puffyan.us",
 ]
 
-CAREER_TAGS = [
-    "AI", "인공지능", "ChatGPT", "GPT", "클로드", "프롬프트",
-    "파이썬", "Python", "코딩", "개발", "프로그래밍",
-    "데이터", "분석", "SQL", "엑셀",
-    "공모전", "스타트업", "창업", "사이드프로젝트", "부업",
-    "취업", "이직", "연봉", "포트폴리오", "자기계발",
-    "디자인", "UX", "UI", "피그마", "Figma",
-    "노코드", "자동화", "워크플로우",
-    "영어", "자격증", "강의", "독학",
-    "마케팅", "브랜딩", "콘텐츠",
-    "투자", "재테크", "ETF",
-    "LLM", "RAG", "agent", "에이전트",
+# 검색할 커리어 쿼리 → (키워드, 쿼리문자열)
+CAREER_QUERIES = [
+    ("AI", "AI 개발 강의"),
+    ("LLM", "LLM 활용"),
+    ("RAG", "RAG 구현"),
+    ("에이전트", "AI 에이전트"),
+    ("파이썬", "파이썬 독학"),
+    ("데이터 분석", "데이터 분석 입문"),
+    ("SQL", "SQL 강의"),
+    ("ChatGPT", "ChatGPT 활용법"),
+    ("프롬프트", "프롬프트 엔지니어링"),
+    ("노코드", "노코드 자동화"),
+    ("UX", "UX 디자인 포트폴리오"),
+    ("취업", "개발자 취업"),
+    ("이직", "이직 준비"),
+    ("포트폴리오", "포트폴리오 만들기"),
+    ("자격증", "IT 자격증"),
+    ("사이드프로젝트", "사이드프로젝트 아이디어"),
+    ("스타트업", "스타트업 창업"),
+    ("마케팅", "디지털 마케팅"),
+    ("재테크", "재테크 입문"),
+    ("자동화", "업무 자동화"),
 ]
 
-def fetch_invidious_trending():
-    """Invidious API로 한국 트렌딩 영상 수집"""
+
+def get_working_instance():
+    """작동하는 Invidious 인스턴스 반환"""
     for base in INVIDIOUS_INSTANCES:
         try:
-            url = f"{base}/api/v1/trending"
-            params = {"region": "KR", "type": "Default"}
-            headers = {"User-Agent": "Mozilla/5.0"}
-            res = requests.get(url, params=params, headers=headers, timeout=10)
+            res = requests.get(
+                f"{base}/api/v1/stats",
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=8,
+            )
             if res.status_code == 200:
-                videos = res.json()
-                titles = [v.get("title", "") for v in videos[:30]]
-                print(f"  → {base} 에서 {len(titles)}개 영상 수집")
-                return titles
-        except Exception as e:
-            print(f"  [경고] {base} 실패: {e}")
+                print(f"  → Invidious 인스턴스: {base}")
+                return base
+        except Exception:
             continue
-    return []
+    return None
 
-def extract_keywords(titles):
-    """제목에서 커리어 키워드 빈도 계산"""
-    keyword_count = {}
-    for title in titles:
-        title_lower = title.lower()
-        for tag in CAREER_TAGS:
-            if tag.lower() in title_lower:
-                keyword_count[tag] = keyword_count.get(tag, 0) + 1
-    return dict(sorted(keyword_count.items(), key=lambda x: x[1], reverse=True))
+
+def search_videos(base, query, max_results=5):
+    """Invidious 검색 API로 영상 조회수 합계 반환"""
+    try:
+        url = f"{base}/api/v1/search"
+        params = {
+            "q": query,
+            "sort_by": "relevance",
+            "type": "video",
+            "region": "KR",
+        }
+        headers = {"User-Agent": "Mozilla/5.0"}
+        res = requests.get(url, params=params, headers=headers, timeout=10)
+        if res.status_code != 200:
+            return 0
+        videos = res.json()
+        if not isinstance(videos, list):
+            return 0
+        total_views = sum(v.get("viewCount", 0) for v in videos[:max_results])
+        return total_views
+    except Exception:
+        return 0
+
+
+def views_to_score(views):
+    """조회수 합계를 0~50 점수로 변환"""
+    if views >= 5_000_000:
+        return 50
+    elif views >= 1_000_000:
+        return 30
+    elif views >= 500_000:
+        return 20
+    elif views >= 100_000:
+        return 10
+    elif views >= 10_000:
+        return 5
+    return 0
+
 
 def run():
-    print("[YouTube Trending] 수집 시작...")
-    titles = fetch_invidious_trending()
-    keywords = extract_keywords(titles)
+    print("[YouTube] 수집 시작...")
+    base = get_working_instance()
+    if not base:
+        print("  [경고] 작동하는 Invidious 인스턴스 없음")
+        return {
+            "source": "youtube",
+            "collected_at": datetime.utcnow().isoformat(),
+            "keywords": {},
+        }
 
-    print(f"  → 영상 {len(titles)}개, 키워드 {len(keywords)}개 추출")
+    keywords = {}
+    for keyword, query in CAREER_QUERIES:
+        views = search_videos(base, query)
+        score = views_to_score(views)
+        if score > 0:
+            keywords[keyword] = score
+        print(f"    {keyword}: {views:,} views → {score}점")
+
+    # 점수 내림차순 정렬
+    keywords = dict(sorted(keywords.items(), key=lambda x: x[1], reverse=True))
+
+    print(f"  → 키워드 {len(keywords)}개 추출")
     if keywords:
         top3 = list(keywords.items())[:3]
         print(f"  → TOP3: {top3}")
 
     return {
-        "source": "youtube_trending",
+        "source": "youtube",
         "collected_at": datetime.utcnow().isoformat(),
-        "video_titles": titles[:15],
         "keywords": keywords,
     }
+
 
 if __name__ == "__main__":
     import json
