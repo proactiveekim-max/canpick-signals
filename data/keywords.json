@@ -1,23 +1,12 @@
 {
-  "updated_at": "2026-05-27T06:18:31.716452+00:00",
-  "total_keywords": 43,
+  "updated_at": "2026-05-28T06:09:51.903338+00:00",
+  "total_keywords": 45,
   "keywords": [
     {
       "keyword": "파이썬",
       "score": 750,
-      "prev_score": 0,
-      "change": 750,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "ChatGPT",
-      "score": 750,
-      "prev_score": 0,
-      "change": 750,
+      "prev_score": 750,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -27,8 +16,8 @@
     {
       "keyword": "재테크",
       "score": 750,
-      "prev_score": 0,
-      "change": 750,
+      "prev_score": 750,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -37,9 +26,9 @@
     },
     {
       "keyword": "AI",
-      "score": 655,
-      "prev_score": 205,
-      "change": 450,
+      "score": 650,
+      "prev_score": 655,
+      "change": -5,
       "temperature": "hot",
       "source_count": 3,
       "sources": [
@@ -49,10 +38,10 @@
       ]
     },
     {
-      "keyword": "이직",
+      "keyword": "ChatGPT",
       "score": 450,
-      "prev_score": 0,
-      "change": 450,
+      "prev_score": 750,
+      "change": -300,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -60,22 +49,21 @@
       ]
     },
     {
-      "keyword": "자격증",
-      "score": 349,
-      "prev_score": 0,
-      "change": 349,
+      "keyword": "이직",
+      "score": 450,
+      "prev_score": 450,
+      "change": 0,
       "temperature": "emerging",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "google",
         "youtube"
       ]
     },
     {
       "keyword": "LLM",
-      "score": 310,
-      "prev_score": 325,
-      "change": -15,
+      "score": 360,
+      "prev_score": 310,
+      "change": 50,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
@@ -84,7 +72,54 @@
       ]
     },
     {
-      "keyword": "SQL",
+      "keyword": "자격증",
+      "score": 357,
+      "prev_score": 349,
+      "change": 8,
+      "temperature": "emerging",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "스타트업",
+      "score": 308,
+      "prev_score": 6,
+      "change": 302,
+      "temperature": "rising",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "사이드프로젝트",
+      "score": 300,
+      "prev_score": 0,
+      "change": 300,
+      "temperature": "emerging",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "에이전트",
+      "score": 300,
+      "prev_score": 150,
+      "change": 150,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "프롬프트",
       "score": 300,
       "prev_score": 0,
       "change": 300,
@@ -95,22 +130,10 @@
       ]
     },
     {
-      "keyword": "포트폴리오",
-      "score": 195,
-      "prev_score": 150,
-      "change": 45,
-      "temperature": "emerging",
-      "source_count": 2,
-      "sources": [
-        "google",
-        "youtube"
-      ]
-    },
-    {
       "keyword": "마케팅",
-      "score": 160,
-      "prev_score": 25,
-      "change": 135,
+      "score": 210,
+      "prev_score": 160,
+      "change": 50,
       "temperature": "rising",
       "source_count": 2,
       "sources": [
@@ -119,10 +142,58 @@
       ]
     },
     {
-      "keyword": "에이전트",
-      "score": 150,
+      "keyword": "포트폴리오",
+      "score": 205,
+      "prev_score": 195,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "데이터 분석",
+      "score": 179,
+      "prev_score": 104,
+      "change": 75,
+      "temperature": "rising",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "RAG",
+      "score": 160,
       "prev_score": 0,
-      "change": 150,
+      "change": 160,
+      "temperature": "emerging",
+      "source_count": 2,
+      "sources": [
+        "github",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "노코드",
+      "score": 150,
+      "prev_score": 75,
+      "change": 75,
+      "temperature": "rising",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "SQL",
+      "score": 150,
+      "prev_score": 300,
+      "change": -150,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -132,8 +203,30 @@
     {
       "keyword": "취업",
       "score": 150,
+      "prev_score": 150,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "agent",
+      "score": 110,
+      "prev_score": 100,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "UX",
+      "score": 75,
       "prev_score": 0,
-      "change": 150,
+      "change": 75,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -142,66 +235,31 @@
     },
     {
       "keyword": "자동화",
-      "score": 150,
-      "prev_score": 0,
-      "change": 150,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "데이터 분석",
-      "score": 104,
-      "prev_score": 75,
-      "change": 29,
-      "temperature": "rising",
-      "source_count": 2,
-      "sources": [
-        "google",
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "agent",
-      "score": 100,
-      "prev_score": 80,
-      "change": 20,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "노코드",
       "score": 75,
-      "prev_score": 155,
-      "change": -80,
+      "prev_score": 150,
+      "change": -75,
       "temperature": "emerging",
-      "source_count": 2,
+      "source_count": 1,
       "sources": [
-        "google",
         "youtube"
       ]
     },
     {
-      "keyword": "Go",
-      "score": 30,
-      "prev_score": 30,
-      "change": 0,
+      "keyword": "기획",
+      "score": 45,
+      "prev_score": 15,
+      "change": 30,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "github"
+        "jobs"
       ]
     },
     {
       "keyword": "AI 활용",
-      "score": 29,
-      "prev_score": 0,
-      "change": 29,
+      "score": 30,
+      "prev_score": 29,
+      "change": 1,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -209,21 +267,33 @@
       ]
     },
     {
-      "keyword": "데이터",
-      "score": 20,
-      "prev_score": 15,
-      "change": 5,
+      "keyword": "PM",
+      "score": 30,
+      "prev_score": 0,
+      "change": 30,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "Go",
+      "score": 25,
+      "prev_score": 30,
+      "change": -5,
+      "temperature": "emerging",
+      "source_count": 2,
+      "sources": [
+        "github",
         "jobs"
       ]
     },
     {
       "keyword": "공모전",
-      "score": 18,
-      "prev_score": 0,
-      "change": 18,
+      "score": 21,
+      "prev_score": 18,
+      "change": 3,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -231,109 +301,43 @@
       ]
     },
     {
-      "keyword": "퍼포먼스",
-      "score": 15,
-      "prev_score": 15,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "기획",
-      "score": 15,
-      "prev_score": 10,
-      "change": 5,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
       "keyword": "Rust",
-      "score": 10,
+      "score": 20,
       "prev_score": 10,
-      "change": 0,
+      "change": 10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
         "github"
+      ]
+    },
+    {
+      "keyword": "Marketing",
+      "score": 15,
+      "prev_score": 5,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
       ]
     },
     {
       "keyword": "workflow",
       "score": 10,
-      "prev_score": 0,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "data",
-      "score": 10,
-      "prev_score": 40,
-      "change": -30,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "DevOps",
-      "score": 10,
-      "prev_score": 0,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "디자인",
-      "score": 10,
-      "prev_score": 0,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "프로덕트",
-      "score": 10,
       "prev_score": 10,
       "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "jobs"
+        "github"
       ]
     },
     {
-      "keyword": "스타트업",
-      "score": 6,
+      "keyword": "AWS",
+      "score": 10,
       "prev_score": 0,
-      "change": 6,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "google"
-      ]
-    },
-    {
-      "keyword": "Marketing",
-      "score": 5,
-      "prev_score": 5,
-      "change": 0,
+      "change": 10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
