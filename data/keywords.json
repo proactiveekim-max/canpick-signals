@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-10T06:22:58.430592+00:00",
-  "total_keywords": 20,
+  "updated_at": "2026-06-11T06:46:49.737479+00:00",
+  "total_keywords": 21,
   "keywords": [
     {
       "keyword": "AI",
-      "score": 245,
-      "prev_score": 690,
-      "change": -445,
+      "score": 235,
+      "prev_score": 245,
+      "change": -10,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
@@ -16,9 +16,9 @@
     },
     {
       "keyword": "agent",
-      "score": 120,
-      "prev_score": 190,
-      "change": -70,
+      "score": 140,
+      "prev_score": 120,
+      "change": 20,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -27,32 +27,9 @@
     },
     {
       "keyword": "LLM",
-      "score": 50,
-      "prev_score": 360,
-      "change": -310,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "Go",
-      "score": 45,
-      "prev_score": 60,
-      "change": -15,
-      "temperature": "emerging",
-      "source_count": 2,
-      "sources": [
-        "github",
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "vision",
-      "score": 30,
-      "prev_score": 20,
-      "change": 10,
+      "score": 100,
+      "prev_score": 50,
+      "change": 50,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -61,20 +38,31 @@
     },
     {
       "keyword": "기획",
-      "score": 30,
-      "prev_score": 40,
-      "change": -10,
+      "score": 55,
+      "prev_score": 30,
+      "change": 25,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
         "jobs"
+      ]
+    },
+    {
+      "keyword": "Go",
+      "score": 30,
+      "prev_score": 45,
+      "change": -15,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
       ]
     },
     {
       "keyword": "마케팅",
       "score": 30,
-      "prev_score": 195,
-      "change": -165,
+      "prev_score": 30,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -82,7 +70,7 @@
       ]
     },
     {
-      "keyword": "PM",
+      "keyword": "Marketing",
       "score": 25,
       "prev_score": 15,
       "change": 10,
@@ -93,20 +81,9 @@
       ]
     },
     {
-      "keyword": "Rust",
-      "score": 20,
-      "prev_score": 20,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
       "keyword": "퍼포먼스",
-      "score": 20,
-      "prev_score": 15,
+      "score": 25,
+      "prev_score": 20,
       "change": 5,
       "temperature": "emerging",
       "source_count": 1,
@@ -115,21 +92,10 @@
       ]
     },
     {
-      "keyword": "Marketing",
-      "score": 15,
-      "prev_score": 0,
-      "change": 15,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "automation",
-      "score": 10,
-      "prev_score": 0,
-      "change": 10,
+      "keyword": "vision",
+      "score": 20,
+      "prev_score": 30,
+      "change": -10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -137,9 +103,9 @@
       ]
     },
     {
-      "keyword": "analytics",
-      "score": 10,
-      "prev_score": 0,
+      "keyword": "data",
+      "score": 20,
+      "prev_score": 10,
       "change": 10,
       "temperature": "emerging",
       "source_count": 1,
@@ -149,19 +115,8 @@
     },
     {
       "keyword": "RAG",
-      "score": 10,
-      "prev_score": 160,
-      "change": -150,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "data",
-      "score": 10,
-      "prev_score": 0,
+      "score": 20,
+      "prev_score": 10,
       "change": 10,
       "temperature": "emerging",
       "source_count": 1,
@@ -170,21 +125,10 @@
       ]
     },
     {
-      "keyword": "generative",
-      "score": 10,
-      "prev_score": 0,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "PO",
-      "score": 10,
-      "prev_score": 0,
-      "change": 10,
+      "keyword": "PM",
+      "score": 20,
+      "prev_score": 25,
+      "change": -5,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -192,7 +136,51 @@
       ]
     },
     {
-      "keyword": "DevOps",
+      "keyword": "Rust",
+      "score": 10,
+      "prev_score": 20,
+      "change": -10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "workflow",
+      "score": 10,
+      "prev_score": 0,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "Design",
+      "score": 5,
+      "prev_score": 0,
+      "change": 5,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "AWS",
+      "score": 5,
+      "prev_score": 0,
+      "change": 5,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "Analytics",
       "score": 5,
       "prev_score": 0,
       "change": 5,
@@ -205,8 +193,8 @@
     {
       "keyword": "프로덕트",
       "score": 5,
-      "prev_score": 0,
-      "change": 5,
+      "prev_score": 5,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -215,6 +203,28 @@
     },
     {
       "keyword": "보안",
+      "score": 5,
+      "prev_score": 5,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "DevOps",
+      "score": 5,
+      "prev_score": 5,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "디자인",
       "score": 5,
       "prev_score": 0,
       "change": 5,
