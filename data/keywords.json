@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-11T06:46:49.737479+00:00",
-  "total_keywords": 21,
+  "updated_at": "2026-06-12T06:40:15.497451+00:00",
+  "total_keywords": 36,
   "keywords": [
     {
       "keyword": "AI",
-      "score": 235,
-      "prev_score": 245,
-      "change": -10,
+      "score": 300,
+      "prev_score": 235,
+      "change": 65,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
@@ -16,9 +16,9 @@
     },
     {
       "keyword": "agent",
-      "score": 140,
-      "prev_score": 120,
-      "change": 20,
+      "score": 170,
+      "prev_score": 140,
+      "change": 30,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -27,9 +27,9 @@
     },
     {
       "keyword": "LLM",
-      "score": 100,
-      "prev_score": 50,
-      "change": 50,
+      "score": 70,
+      "prev_score": 100,
+      "change": -30,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -37,76 +37,76 @@
       ]
     },
     {
-      "keyword": "기획",
-      "score": 55,
-      "prev_score": 30,
-      "change": 25,
+      "keyword": "자격증",
+      "score": 54,
+      "prev_score": 0,
+      "change": 54,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "jobs"
+        "google"
       ]
     },
     {
-      "keyword": "Go",
-      "score": 30,
-      "prev_score": 45,
-      "change": -15,
+      "keyword": "포트폴리오",
+      "score": 52,
+      "prev_score": 0,
+      "change": 52,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "github"
+        "google"
       ]
     },
     {
       "keyword": "마케팅",
+      "score": 45,
+      "prev_score": 30,
+      "change": 15,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "기획",
+      "score": 35,
+      "prev_score": 55,
+      "change": -20,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "데이터 분석",
+      "score": 32,
+      "prev_score": 0,
+      "change": 32,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
+      ]
+    },
+    {
+      "keyword": "AI 활용",
       "score": 30,
-      "prev_score": 30,
-      "change": 0,
+      "prev_score": 0,
+      "change": 30,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "Marketing",
-      "score": 25,
-      "prev_score": 15,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "퍼포먼스",
-      "score": 25,
-      "prev_score": 20,
-      "change": 5,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "vision",
-      "score": 20,
-      "prev_score": 30,
-      "change": -10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
+        "google"
       ]
     },
     {
       "keyword": "data",
       "score": 20,
-      "prev_score": 10,
-      "change": 10,
+      "prev_score": 20,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -114,10 +114,10 @@
       ]
     },
     {
-      "keyword": "RAG",
+      "keyword": "Go",
       "score": 20,
-      "prev_score": 10,
-      "change": 10,
+      "prev_score": 30,
+      "change": -10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -127,8 +127,8 @@
     {
       "keyword": "PM",
       "score": 20,
-      "prev_score": 25,
-      "change": -5,
+      "prev_score": 20,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -136,18 +136,18 @@
       ]
     },
     {
-      "keyword": "Rust",
-      "score": 10,
-      "prev_score": 20,
-      "change": -10,
+      "keyword": "공모전",
+      "score": 19,
+      "prev_score": 0,
+      "change": 19,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "github"
+        "google"
       ]
     },
     {
-      "keyword": "workflow",
+      "keyword": "analytics",
       "score": 10,
       "prev_score": 0,
       "change": 10,
@@ -158,47 +158,80 @@
       ]
     },
     {
-      "keyword": "Design",
-      "score": 5,
-      "prev_score": 0,
-      "change": 5,
+      "keyword": "RAG",
+      "score": 10,
+      "prev_score": 20,
+      "change": -10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "AWS",
-      "score": 5,
-      "prev_score": 0,
-      "change": 5,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
-      ]
-    },
-    {
-      "keyword": "Analytics",
-      "score": 5,
-      "prev_score": 0,
-      "change": 5,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "jobs"
+        "github"
       ]
     },
     {
       "keyword": "프로덕트",
-      "score": 5,
+      "score": 10,
       "prev_score": 5,
-      "change": 0,
+      "change": 5,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
         "jobs"
+      ]
+    },
+    {
+      "keyword": "ML",
+      "score": 10,
+      "prev_score": 0,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "퍼포먼스",
+      "score": 10,
+      "prev_score": 25,
+      "change": -15,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "데이터",
+      "score": 10,
+      "prev_score": 0,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "분석",
+      "score": 10,
+      "prev_score": 0,
+      "change": 10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "스타트업",
+      "score": 7,
+      "prev_score": 0,
+      "change": 7,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
       ]
     },
     {
@@ -206,6 +239,28 @@
       "score": 5,
       "prev_score": 5,
       "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "Marketing",
+      "score": 5,
+      "prev_score": 25,
+      "change": -20,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "PO",
+      "score": 5,
+      "prev_score": 0,
+      "change": 5,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -224,7 +279,18 @@
       ]
     },
     {
-      "keyword": "디자인",
+      "keyword": "Design",
+      "score": 5,
+      "prev_score": 5,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "UI",
       "score": 5,
       "prev_score": 0,
       "change": 5,
@@ -232,6 +298,39 @@
       "source_count": 1,
       "sources": [
         "jobs"
+      ]
+    },
+    {
+      "keyword": "Python",
+      "score": 5,
+      "prev_score": 0,
+      "change": 5,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "jobs"
+      ]
+    },
+    {
+      "keyword": "Next.js",
+      "score": 1,
+      "prev_score": 0,
+      "change": 1,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
+      ]
+    },
+    {
+      "keyword": "프롬프트 엔지니어링",
+      "score": 0,
+      "prev_score": 0,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
       ]
     }
   ]
