@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-26T03:00:51.640347+00:00",
-  "total_keywords": 33,
+  "updated_at": "2026-08-27T12:18:41.665967+00:00",
+  "total_keywords": 35,
   "keywords": [
     {
       "keyword": "파이썬",
       "score": 750,
-      "prev_score": 0,
-      "change": 750,
+      "prev_score": 750,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -26,13 +26,24 @@
     },
     {
       "keyword": "AI",
-      "score": 710,
-      "prev_score": 580,
-      "change": 130,
+      "score": 730,
+      "prev_score": 710,
+      "change": 20,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
         "github",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "에이전트",
+      "score": 450,
+      "prev_score": 300,
+      "change": 150,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
         "youtube"
       ]
     },
@@ -48,14 +59,37 @@
       ]
     },
     {
+      "keyword": "자동화",
+      "score": 450,
+      "prev_score": 150,
+      "change": 300,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "youtube"
+      ]
+    },
+    {
       "keyword": "자격증",
-      "score": 361,
-      "prev_score": 359,
-      "change": 2,
+      "score": 360,
+      "prev_score": 361,
+      "change": -1,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
         "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "LLM",
+      "score": 350,
+      "prev_score": 230,
+      "change": 120,
+      "temperature": "rising",
+      "source_count": 2,
+      "sources": [
+        "github",
         "youtube"
       ]
     },
@@ -72,44 +106,21 @@
       ]
     },
     {
-      "keyword": "에이전트",
-      "score": 300,
-      "prev_score": 150,
-      "change": 150,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "youtube"
-      ]
-    },
-    {
       "keyword": "SQL",
       "score": 300,
-      "prev_score": 450,
-      "change": -150,
+      "prev_score": 300,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "LLM",
-      "score": 230,
-      "prev_score": 340,
-      "change": -110,
-      "temperature": "emerging",
-      "source_count": 2,
-      "sources": [
-        "github",
         "youtube"
       ]
     },
     {
       "keyword": "포트폴리오",
-      "score": 193,
-      "prev_score": 346,
-      "change": -153,
+      "score": 195,
+      "prev_score": 193,
+      "change": 2,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
@@ -118,11 +129,34 @@
       ]
     },
     {
-      "keyword": "데이터 분석",
-      "score": 183,
-      "prev_score": 99,
-      "change": 84,
+      "keyword": "agent",
+      "score": 170,
+      "prev_score": 150,
+      "change": 20,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "스타트업",
+      "score": 155,
+      "prev_score": 80,
+      "change": 75,
       "temperature": "rising",
+      "source_count": 2,
+      "sources": [
+        "google",
+        "youtube"
+      ]
+    },
+    {
+      "keyword": "노코드",
+      "score": 150,
+      "prev_score": 150,
+      "change": 0,
+      "temperature": "emerging",
       "source_count": 2,
       "sources": [
         "google",
@@ -131,36 +165,12 @@
     },
     {
       "keyword": "RAG",
-      "score": 170,
-      "prev_score": 160,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 2,
-      "sources": [
-        "github",
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "agent",
       "score": 150,
-      "prev_score": 180,
-      "change": -30,
+      "prev_score": 170,
+      "change": -20,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "노코드",
-      "score": 150,
-      "prev_score": 75,
-      "change": 75,
-      "temperature": "rising",
-      "source_count": 2,
-      "sources": [
-        "google",
         "youtube"
       ]
     },
@@ -209,21 +219,10 @@
       ]
     },
     {
-      "keyword": "자동화",
-      "score": 150,
-      "prev_score": 150,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "youtube"
-      ]
-    },
-    {
-      "keyword": "스타트업",
-      "score": 80,
-      "prev_score": 305,
-      "change": -225,
+      "keyword": "데이터 분석",
+      "score": 102,
+      "prev_score": 183,
+      "change": -81,
       "temperature": "emerging",
       "source_count": 2,
       "sources": [
@@ -234,8 +233,8 @@
     {
       "keyword": "취업",
       "score": 75,
-      "prev_score": 150,
-      "change": -75,
+      "prev_score": 75,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -243,10 +242,43 @@
       ]
     },
     {
+      "keyword": "data",
+      "score": 70,
+      "prev_score": 0,
+      "change": 70,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "Go",
+      "score": 70,
+      "prev_score": 20,
+      "change": 50,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "workflow",
+      "score": 30,
+      "prev_score": 10,
+      "change": 20,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
       "keyword": "AI 활용",
-      "score": 35,
-      "prev_score": 26,
-      "change": 9,
+      "score": 28,
+      "prev_score": 35,
+      "change": -7,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -254,9 +286,31 @@
       ]
     },
     {
-      "keyword": "Go",
-      "score": 20,
+      "keyword": "공모전",
+      "score": 18,
+      "prev_score": 19,
+      "change": -1,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
+      ]
+    },
+    {
+      "keyword": "generative",
+      "score": 10,
       "prev_score": 10,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "automation",
+      "score": 10,
+      "prev_score": 0,
       "change": 10,
       "temperature": "emerging",
       "source_count": 1,
@@ -265,21 +319,10 @@
       ]
     },
     {
-      "keyword": "공모전",
-      "score": 19,
-      "prev_score": 18,
-      "change": 1,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "google"
-      ]
-    },
-    {
-      "keyword": "workflow",
+      "keyword": "React",
       "score": 10,
-      "prev_score": 30,
-      "change": -20,
+      "prev_score": 0,
+      "change": 10,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -287,57 +330,14 @@
       ]
     },
     {
-      "keyword": "multimodal",
+      "keyword": "Next.js",
       "score": 10,
-      "prev_score": 10,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "generative",
-      "score": 10,
-      "prev_score": 20,
-      "change": -10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "프롬프트 엔지니어링",
-      "score": 1,
       "prev_score": 0,
-      "change": 1,
+      "change": 10,
       "temperature": "emerging",
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "google"
-      ]
-    },
-    {
-      "keyword": "파이썬 독학",
-      "score": 0,
-      "prev_score": 0,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "google"
-      ]
-    },
-    {
-      "keyword": "UX 디자인",
-      "score": 0,
-      "prev_score": 0,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
+        "github",
         "google"
       ]
     }
