@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-02T07:55:05.530943+00:00",
-  "total_keywords": 23,
+  "updated_at": "2026-10-03T07:33:33.612406+00:00",
+  "total_keywords": 22,
   "keywords": [
     {
-      "keyword": "AI",
-      "score": 280,
-      "prev_score": 310,
-      "change": -30,
+      "keyword": "agent",
+      "score": 260,
+      "prev_score": 200,
+      "change": 60,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -14,10 +14,10 @@
       ]
     },
     {
-      "keyword": "agent",
-      "score": 200,
-      "prev_score": 160,
-      "change": 40,
+      "keyword": "AI",
+      "score": 240,
+      "prev_score": 280,
+      "change": -40,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -26,20 +26,9 @@
     },
     {
       "keyword": "자격증",
-      "score": 51,
-      "prev_score": 48,
-      "change": 3,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "google"
-      ]
-    },
-    {
-      "keyword": "AI 활용",
-      "score": 41,
-      "prev_score": 23,
-      "change": 18,
+      "score": 53,
+      "prev_score": 51,
+      "change": 2,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -48,9 +37,9 @@
     },
     {
       "keyword": "포트폴리오",
-      "score": 39,
-      "prev_score": 43,
-      "change": -4,
+      "score": 43,
+      "prev_score": 39,
+      "change": 4,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -58,32 +47,10 @@
       ]
     },
     {
-      "keyword": "LLM",
-      "score": 30,
-      "prev_score": 20,
-      "change": 10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "workflow",
-      "score": 30,
-      "prev_score": 40,
-      "change": -10,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "데이터 분석",
-      "score": 22,
-      "prev_score": 12,
-      "change": 10,
+      "keyword": "AI 활용",
+      "score": 36,
+      "prev_score": 41,
+      "change": -5,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -91,7 +58,18 @@
       ]
     },
     {
-      "keyword": "RAG",
+      "keyword": "analytics",
+      "score": 30,
+      "prev_score": 10,
+      "change": 20,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "Go",
       "score": 20,
       "prev_score": 20,
       "change": 0,
@@ -102,7 +80,7 @@
       ]
     },
     {
-      "keyword": "Go",
+      "keyword": "LLM",
       "score": 20,
       "prev_score": 30,
       "change": -10,
@@ -113,21 +91,10 @@
       ]
     },
     {
-      "keyword": "data",
-      "score": 20,
-      "prev_score": 20,
-      "change": 0,
-      "temperature": "emerging",
-      "source_count": 1,
-      "sources": [
-        "github"
-      ]
-    },
-    {
-      "keyword": "공모전",
+      "keyword": "데이터 분석",
       "score": 19,
-      "prev_score": 17,
-      "change": 2,
+      "prev_score": 22,
+      "change": -3,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -135,7 +102,18 @@
       ]
     },
     {
-      "keyword": "analytics",
+      "keyword": "공모전",
+      "score": 19,
+      "prev_score": 19,
+      "change": 0,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "google"
+      ]
+    },
+    {
+      "keyword": "TypeScript",
       "score": 10,
       "prev_score": 0,
       "change": 10,
@@ -146,10 +124,21 @@
       ]
     },
     {
-      "keyword": "multimodal",
+      "keyword": "data",
       "score": 10,
-      "prev_score": 0,
-      "change": 10,
+      "prev_score": 20,
+      "change": -10,
+      "temperature": "emerging",
+      "source_count": 1,
+      "sources": [
+        "github"
+      ]
+    },
+    {
+      "keyword": "workflow",
+      "score": 10,
+      "prev_score": 30,
+      "change": -20,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
@@ -159,8 +148,8 @@
     {
       "keyword": "스타트업",
       "score": 5,
-      "prev_score": 4,
-      "change": 1,
+      "prev_score": 5,
+      "change": 0,
       "temperature": "emerging",
       "source_count": 1,
       "sources": [
